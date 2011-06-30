@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		582F098B13BCEC9C0059873E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582F098A13BCEC9C0059873E /* UIKit.framework */; };
+		582F098D13BCEC9C0059873E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582F098C13BCEC9C0059873E /* Foundation.framework */; };
+		582F098F13BCEC9C0059873E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582F098E13BCEC9C0059873E /* CoreGraphics.framework */; };
+		582F099513BCEC9C0059873E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 582F099313BCEC9C0059873E /* InfoPlist.strings */; };
+		582F099813BCEC9C0059873E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 582F099713BCEC9C0059873E /* main.m */; };
+		582F099B13BCEC9C0059873E /* PyramidAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 582F099A13BCEC9C0059873E /* PyramidAppDelegate.m */; };
+		582F099E13BCEC9C0059873E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 582F099C13BCEC9C0059873E /* MainWindow.xib */; };
+		582F09A513BCEC9D0059873E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582F098A13BCEC9C0059873E /* UIKit.framework */; };
+		582F09A613BCEC9D0059873E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582F098C13BCEC9C0059873E /* Foundation.framework */; };
+		582F09A713BCEC9D0059873E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582F098E13BCEC9C0059873E /* CoreGraphics.framework */; };
+		582F09AF13BCEC9D0059873E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 582F09AD13BCEC9D0059873E /* InfoPlist.strings */; };
+		582F09B213BCEC9D0059873E /* PyramidTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 582F09B113BCEC9D0059873E /* PyramidTests.h */; };
+		582F09B413BCEC9D0059873E /* PyramidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 582F09B313BCEC9D0059873E /* PyramidTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		582F09A813BCEC9D0059873E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 582F097D13BCEC9C0059873E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 582F098513BCEC9C0059873E;
+			remoteInfo = Pyramid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		582F098613BCEC9C0059873E /* Pyramid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pyramid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		582F098A13BCEC9C0059873E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		582F098C13BCEC9C0059873E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		582F098E13BCEC9C0059873E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		582F099213BCEC9C0059873E /* Pyramid-Info.plist */ = {isa = PBXFileReference; path = "Pyramid-Info.plist"; sourceTree = "<group>"; };
+		582F099413BCEC9C0059873E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		582F099613BCEC9C0059873E /* Pyramid-Prefix.pch */ = {isa = PBXFileReference; path = "Pyramid-Prefix.pch"; sourceTree = "<group>"; };
+		582F099713BCEC9C0059873E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		582F099913BCEC9C0059873E /* PyramidAppDelegate.h */ = {isa = PBXFileReference; path = PyramidAppDelegate.h; sourceTree = "<group>"; };
+		582F099A13BCEC9C0059873E /* PyramidAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PyramidAppDelegate.m; sourceTree = "<group>"; };
+		582F099D13BCEC9C0059873E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		582F09A413BCEC9D0059873E /* PyramidTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PyramidTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		582F09AC13BCEC9D0059873E /* PyramidTests-Info.plist */ = {isa = PBXFileReference; path = "PyramidTests-Info.plist"; sourceTree = "<group>"; };
+		582F09AE13BCEC9D0059873E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		582F09B013BCEC9D0059873E /* PyramidTests-Prefix.pch */ = {isa = PBXFileReference; path = "PyramidTests-Prefix.pch"; sourceTree = "<group>"; };
+		582F09B113BCEC9D0059873E /* PyramidTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PyramidTests.h; sourceTree = "<group>"; };
+		582F09B313BCEC9D0059873E /* PyramidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PyramidTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		582F098313BCEC9C0059873E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582F098B13BCEC9C0059873E /* UIKit.framework in Frameworks */,
+				582F098D13BCEC9C0059873E /* Foundation.framework in Frameworks */,
+				582F098F13BCEC9C0059873E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582F09A013BCEC9D0059873E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582F09A513BCEC9D0059873E /* UIKit.framework in Frameworks */,
+				582F09A613BCEC9D0059873E /* Foundation.framework in Frameworks */,
+				582F09A713BCEC9D0059873E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		582F097B13BCEC9C0059873E = {
+			isa = PBXGroup;
+			children = (
+				582F099013BCEC9C0059873E /* Pyramid */,
+				582F09AA13BCEC9D0059873E /* PyramidTests */,
+				582F098913BCEC9C0059873E /* Frameworks */,
+				582F098713BCEC9C0059873E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		582F098713BCEC9C0059873E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				582F098613BCEC9C0059873E /* Pyramid.app */,
+				582F09A413BCEC9D0059873E /* PyramidTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		582F098913BCEC9C0059873E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				582F098A13BCEC9C0059873E /* UIKit.framework */,
+				582F098C13BCEC9C0059873E /* Foundation.framework */,
+				582F098E13BCEC9C0059873E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		582F099013BCEC9C0059873E /* Pyramid */ = {
+			isa = PBXGroup;
+			children = (
+				582F099913BCEC9C0059873E /* PyramidAppDelegate.h */,
+				582F099A13BCEC9C0059873E /* PyramidAppDelegate.m */,
+				582F099C13BCEC9C0059873E /* MainWindow.xib */,
+				582F099113BCEC9C0059873E /* Supporting Files */,
+			);
+			path = Pyramid;
+			sourceTree = "<group>";
+		};
+		582F099113BCEC9C0059873E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				582F099213BCEC9C0059873E /* Pyramid-Info.plist */,
+				582F099313BCEC9C0059873E /* InfoPlist.strings */,
+				582F099613BCEC9C0059873E /* Pyramid-Prefix.pch */,
+				582F099713BCEC9C0059873E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		582F09AA13BCEC9D0059873E /* PyramidTests */ = {
+			isa = PBXGroup;
+			children = (
+				582F09B113BCEC9D0059873E /* PyramidTests.h */,
+				582F09B313BCEC9D0059873E /* PyramidTests.m */,
+				582F09AB13BCEC9D0059873E /* Supporting Files */,
+			);
+			path = PyramidTests;
+			sourceTree = "<group>";
+		};
+		582F09AB13BCEC9D0059873E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				582F09AC13BCEC9D0059873E /* PyramidTests-Info.plist */,
+				582F09AD13BCEC9D0059873E /* InfoPlist.strings */,
+				582F09B013BCEC9D0059873E /* PyramidTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		582F098513BCEC9C0059873E /* Pyramid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 582F09B713BCEC9D0059873E /* Build configuration list for PBXNativeTarget "Pyramid" */;
+			buildPhases = (
+				582F098213BCEC9C0059873E /* Sources */,
+				582F098313BCEC9C0059873E /* Frameworks */,
+				582F098413BCEC9C0059873E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pyramid;
+			productName = Pyramid;
+			productReference = 582F098613BCEC9C0059873E /* Pyramid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		582F09A313BCEC9D0059873E /* PyramidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 582F09BA13BCEC9D0059873E /* Build configuration list for PBXNativeTarget "PyramidTests" */;
+			buildPhases = (
+				582F099F13BCEC9D0059873E /* Sources */,
+				582F09A013BCEC9D0059873E /* Frameworks */,
+				582F09A113BCEC9D0059873E /* Resources */,
+				582F09A213BCEC9D0059873E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				582F09A913BCEC9D0059873E /* PBXTargetDependency */,
+			);
+			name = PyramidTests;
+			productName = PyramidTests;
+			productReference = 582F09A413BCEC9D0059873E /* PyramidTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		582F097D13BCEC9C0059873E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Self;
+			};
+			buildConfigurationList = 582F098013BCEC9C0059873E /* Build configuration list for PBXProject "Pyramid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 582F097B13BCEC9C0059873E;
+			productRefGroup = 582F098713BCEC9C0059873E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				582F098513BCEC9C0059873E /* Pyramid */,
+				582F09A313BCEC9D0059873E /* PyramidTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		582F098413BCEC9C0059873E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582F099513BCEC9C0059873E /* InfoPlist.strings in Resources */,
+				582F099E13BCEC9C0059873E /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582F09A113BCEC9D0059873E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582F09AF13BCEC9D0059873E /* InfoPlist.strings in Resources */,
+				582F09B213BCEC9D0059873E /* PyramidTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		582F09A213BCEC9D0059873E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		582F098213BCEC9C0059873E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582F099813BCEC9C0059873E /* main.m in Sources */,
+				582F099B13BCEC9C0059873E /* PyramidAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582F099F13BCEC9D0059873E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582F09B413BCEC9D0059873E /* PyramidTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		582F09A913BCEC9D0059873E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 582F098513BCEC9C0059873E /* Pyramid */;
+			targetProxy = 582F09A813BCEC9D0059873E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		582F099313BCEC9C0059873E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				582F099413BCEC9C0059873E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		582F099C13BCEC9C0059873E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				582F099D13BCEC9C0059873E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		582F09AD13BCEC9D0059873E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				582F09AE13BCEC9D0059873E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		582F09B513BCEC9D0059873E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		582F09B613BCEC9D0059873E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		582F09B813BCEC9D0059873E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pyramid/Pyramid-Prefix.pch";
+				INFOPLIST_FILE = "Pyramid/Pyramid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		582F09B913BCEC9D0059873E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pyramid/Pyramid-Prefix.pch";
+				INFOPLIST_FILE = "Pyramid/Pyramid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		582F09BB13BCEC9D0059873E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pyramid.app/Pyramid";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PyramidTests/PyramidTests-Prefix.pch";
+				INFOPLIST_FILE = "PyramidTests/PyramidTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		582F09BC13BCEC9D0059873E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pyramid.app/Pyramid";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PyramidTests/PyramidTests-Prefix.pch";
+				INFOPLIST_FILE = "PyramidTests/PyramidTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		582F098013BCEC9C0059873E /* Build configuration list for PBXProject "Pyramid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582F09B513BCEC9D0059873E /* Debug */,
+				582F09B613BCEC9D0059873E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		582F09B713BCEC9D0059873E /* Build configuration list for PBXNativeTarget "Pyramid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582F09B813BCEC9D0059873E /* Debug */,
+				582F09B913BCEC9D0059873E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		582F09BA13BCEC9D0059873E /* Build configuration list for PBXNativeTarget "PyramidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582F09BB13BCEC9D0059873E /* Debug */,
+				582F09BC13BCEC9D0059873E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 582F097D13BCEC9C0059873E /* Project object */;
+}
